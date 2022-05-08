@@ -3,6 +3,10 @@
     $value1: $value2;
 }
 
-div {
+h1 {
     @include mix1(color, red);
+}
+
+h1 {
+    color: red;
 }
