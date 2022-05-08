@@ -1,0 +1,8 @@
+@mixin mix1($value1, $value2) {
+
+    $value1: $value2;
+}
+
+div {
+    @include mix1(color, red);
+}
